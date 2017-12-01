@@ -34,7 +34,7 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
    array = [1];
    element = 'foo';
    // return array;
-   array = [... array, element];
+   array = array.push(element);
    return array;
 
  }
