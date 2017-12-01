@@ -13,8 +13,8 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
   }
 
   function destructivelyAddElementToBeginningOfArray(array, element) {
-    array = [1];
-    element = 'foo';
+    // array = [1];
+    // element = 'foo';
     array = [element, ... array];
   return array;
   }
@@ -22,8 +22,8 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
  //
 
  function addElementToEndOfArray(array, element) {
-   array = [1];
-   element = 'foo';
+  //  array = [1];
+  //  element = 'foo';
    // return array;
    var newArray = [... array, element];
    return newArray;
@@ -31,8 +31,8 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
  }
 
  function destructivelyAddElementToEndOfArray(array, element) {
-   array = [1];
-   element = 'foo';
+  //  array = [1];
+  //  element = 'foo';
    // return array;
    array.push(element);
    return array;
