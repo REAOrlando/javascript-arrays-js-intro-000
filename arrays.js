@@ -1,9 +1,6 @@
-// var chocolateBars = new Array();
+
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-// var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-
- // var chocolateBars = ["Snickers", "hundred grand", "kitkat", "skittles"];
 
   function addElementToBeginningOfArray(array, element) {
     // array = [1];
@@ -40,3 +37,8 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
    return array;
 
  }
+
+ function accessElementInArray(array, index) {
+   return array[index];
+   
+ } 
