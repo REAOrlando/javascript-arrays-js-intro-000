@@ -19,10 +19,13 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
   return array;
   }
 
- //  function addElementToBeginningOfArray(array, element){
- //    var array = "foo";
- //    var element = 1;
- //    return [array, element];
- //    var new_array = [element, array[0]];
- //    return new_array;
- // }
+ //
+
+ function addElementToEndOfArray(array, element) {
+   array = [1];
+   element = 'foo';
+   // return array;
+   var newArray = [array, ... element];
+   return newArray;
+
+ }
