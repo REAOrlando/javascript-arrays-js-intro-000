@@ -1,7 +1,7 @@
 // var chocolateBars = new Array();
 // chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles",  ];
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
  // var chocolateBars = ["Snickers", "hundred grand", "kitkat", "skittles"];
 
