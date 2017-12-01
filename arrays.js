@@ -3,12 +3,12 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
  // var chocolateBars = ["Snickers", "hundred grand", "kitkat", "skittles"];
 
-  // function addElementToBeginningOfArray(array, element) {
-  //   array = [1];
-  //   element = 'foo';
-  //   var newArray = [element, ...array];
-  //
-  // }
+  function addElementToBeginningOfArray(array, element) {
+    array = 'foo';
+    element = [1];
+    var newArray = [element, ...array];
+
+  }
 
   function destructivelyAddElementToBeginningOfArray(array, element) {
     array = [1];
@@ -17,10 +17,10 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
   return array;
   }
 
-  function addElementToBeginningOfArray(array, element){
- var array = "foo";
- var element = 1;
-return [array, element];
-var new_array = [element, array[0]];
-return new_array;
- }
+ //  function addElementToBeginningOfArray(array, element){
+ //    var array = "foo";
+ //    var element = 1;
+ //    return [array, element];
+ //    var new_array = [element, array[0]];
+ //    return new_array;
+ // }
