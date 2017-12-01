@@ -29,3 +29,12 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
    return newArray;
 
  }
+
+ function destructivelyAddElementToEndOfArray(array, element) {
+   array = [1];
+   element = 'foo';
+   // return array;
+   array = [... array, element];
+   return array;
+
+ }
