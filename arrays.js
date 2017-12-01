@@ -42,3 +42,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
    return array[index];
 
  }
+
+ function destructivelyRemoveElementFromBeginningOfArray(array) {
+   return array.shift()
+ }
