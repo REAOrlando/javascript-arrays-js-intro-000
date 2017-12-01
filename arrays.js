@@ -44,5 +44,5 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
  }
 
  function destructivelyRemoveElementFromBeginningOfArray(array) {
-   return array.slice(1) 
+   return array.shift() 
  }
