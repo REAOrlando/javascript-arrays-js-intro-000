@@ -54,6 +54,11 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
  }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
- array.slice(-1)
+ array.pop()
+  return array;
+}
+
+function removeElementFromEndOfArray(array) {
+  array.slice(0, array.length - 1 );
   return array;
 }
