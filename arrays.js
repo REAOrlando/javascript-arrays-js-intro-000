@@ -7,7 +7,7 @@ chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
     array = [1];
     element = 'foo';
     // return array;
-    var newArray = [element, array[0]];
+    var newArray = [element, ... array];
     return newArray;
 
   }
